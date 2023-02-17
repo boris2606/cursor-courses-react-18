@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.component{
+    display: flex;
+    align-items:center;
+
+
+}
+.info_component{
+    text-align: center;
+    height: 100%;
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    border-radius: 10px;
+}
+.info_component button{
+    width: 90%;
+    margin: 20px auto 10px;
+    font: 14px Russo One;
+    border: 3px solid #303030;
+    border-radius: 10px;
+    background: #00000017;
+    color: #303030;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+.info_component button:hover{
+    border: 3px solid #ccc;
+    color:#ccc
+}
+.info_component div {
+    color: #303030;
+    font: 14px Russo one;
+}
+.wrapper_progress{
+    height: 100px;
+    margin-left: 20px;
+    width: 100%;
+}
+.progress_bar{
+    height: 100px;
+    width: 100%;
+    
+}
