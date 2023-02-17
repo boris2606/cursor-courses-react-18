@@ -81,7 +81,7 @@ function App() {
               })}
             </select>
           </label>
-          <a className='reset_fields' href='/'>скинути таймер</a>
+          <a className='reset_fields' href='https://boris2606.github.io/cursor-courses-react-18/'>скинути таймер</a>
 
         </div>
 
