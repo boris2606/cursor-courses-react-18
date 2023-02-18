@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cursor-courses-react-18/static/css/main.fbe90698.css",
-    "main.js": "/cursor-courses-react-18/static/js/main.bcfef71e.js",
+    "main.js": "/cursor-courses-react-18/static/js/main.67e97c3b.js",
     "index.html": "/cursor-courses-react-18/index.html",
     "main.fbe90698.css.map": "/cursor-courses-react-18/static/css/main.fbe90698.css.map",
-    "main.bcfef71e.js.map": "/cursor-courses-react-18/static/js/main.bcfef71e.js.map"
+    "main.67e97c3b.js.map": "/cursor-courses-react-18/static/js/main.67e97c3b.js.map"
   },
   "entrypoints": [
     "static/css/main.fbe90698.css",
-    "static/js/main.bcfef71e.js"
+    "static/js/main.67e97c3b.js"
   ]
 }
