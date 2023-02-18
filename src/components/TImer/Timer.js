@@ -19,7 +19,7 @@ const Timer = (props) => {
                 setSeconds(seconds - props.steps.value)
                 setWidthTime(widthTime - props.steps.value )
             }, props.steps.stepTime)
-        } else if (seconds === 0 && minutes !== 0 && timerActive){
+        } else if (seconds <= 0 && minutes !== 0 && timerActive){
             setTimeout(() => {
                 if (props.steps.value === 2){ // Корегування шкали таймеру
                     setWidthTime(widthTime - 1)
@@ -29,7 +29,7 @@ const Timer = (props) => {
                 setMinutes(minutes - 1)
                 setTimeout(setSeconds(props.steps.value === 2 ? 58 : 59), props.steps.stepTime, seconds - props.steps.value); // Корегування таймеру
             }, props.steps.stepTime);
-        } else if (seconds === 0 && minutes === 0){
+        } else if (seconds <= 0 && minutes === 0){
             setTimerActive(false) // Зміни флагу активності таймеру
             setSeconds(gettedSeconds)  // Задання початкових значень відповідно д всіхдних пропсів
             setMinutes(gettedMinutes) // Задання початкових значень відповідно д всіхдних пропсів
